@@ -96,7 +96,7 @@ main article a {
 }
 
 main article a::before {
-  content: "View ";
+  background-image: url();
   font-weight: bold;
 }
 
