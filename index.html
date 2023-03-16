@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Bootcamp Portfolio</title>
-	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
 	<header>
@@ -18,7 +18,8 @@
 	</header>
 
 	<main>
-		<section id="about-me">
+		<img class="my-picture" src="./assets/images/my-picture.jpg" alt="Me">
+		<section class="about" id="about-me">
 			<h2>About Me</h2>
 			<p>I'm a web developer who just started a bootcamp. I'm passionate about building responsive websites and creating user-friendly interfaces.</p>
 			<p>In my free time, I enjoy cooking, playing video games, and learning new coding languages.</p>
@@ -26,20 +27,21 @@
 
 		<section id="my-projects">
 			<h2>My Projects</h2>
-			<article>
+			<article>	
+				</a>
 				<h3>Project 1</h3>
 				<p>Past project.</p>
-				<a href="#">View Project</a>
+				<a  href="https://github.com/Heber-Marcano/First-bootcamp-challange">View Project</a>
 			</article>
 			<article>
 				<h3>Project 2</h3>
 				<p>Past project.</p>
-				<a href="#">View Project</a>
+				<a href="https://github.com/Heber-Marcano/git-branch-practice">View Project</a>
 			</article>
 			<article>
 				<h3>Project 3</h3>
 				<p>Past project.</p>
-				<a href="#">View Project</a>
+				<a href="https://github.com/Heber-Marcano/portfolio-thinkful">View Project </a>
 			</article>
 		</section>
 
@@ -47,15 +49,15 @@
 			<h2>Contact Me</h2>
 			<form action="#" method="post">
 				<label for="name">Name:</label>
-				<input type="text" id="name" name="name" required>
+				<input class="imput-styles" type="text" id="name" name="name" required>
 
 				<label for="email">Email:</label>
-				<input type="email" id="email" name="email" required>
+				<input class="imput-styles" type="email" id="email" name="email" required>
 
 				<label for="message">Message:</label>
-				<textarea id="message" name="message" required></textarea>
+				<textarea class="imput-styles" id="message" name="message" required></textarea>
 
-				<input type="submit" value="Send">
+				<input class="imput-styles submit-btn" type="submit" value="Send">
 			</form>
 		</section>
 	</main>

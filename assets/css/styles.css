@@ -42,13 +42,21 @@ header h1 {
 }
 
 /* Apply styles to the main section */
+
 main {
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
-main section {
+.my-picture{
+  height: 300px;
+  width: 150px;
+  margin: 0 auto;
+}
+.about {
   margin: 2rem 0;
 }
 
@@ -67,7 +75,14 @@ main article {
   padding: 1rem;
 }
 
+#my-projects article  {
+  background-image: url("../images/Computing.jpg");
+  
+}
+
+
 main article h3 {
+  color: rgb(255, 255, 255);
   margin-bottom: 0.5rem;
 }
 
@@ -76,7 +91,7 @@ main article p {
 }
 
 main article a {
-  color: #0c0c0c;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -100,21 +115,21 @@ main section#contact-me label {
   margin-bottom: 0.5rem;
 }
 
-main section#contact-me input,
-main section#contact-me textarea {
+
+.imput-styles{
   padding: 0.5rem;
   margin-bottom: 1rem;
   border-radius: 0.25rem;
   border: 1px solid #e8e1e1;
 }
 
-main section#contact-me input:focus,
-main section#contact-me textarea:focus {
+.imput-styles:focus {
   outline: none;
   box-shadow: 0 0 3px #999;
 }
 
-main section#contact-me input[type="submit"] {
+
+.submit-btn{
   background-color: black;
   color: white;
   border: none;
@@ -123,7 +138,7 @@ main section#contact-me input[type="submit"] {
   cursor: pointer;
 }
 
-main section#contact-me input[type="submit"]:hover {
+.submit-btn:hover {
   background-color: white;
 }
 
